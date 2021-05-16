@@ -1,0 +1,27 @@
+.resources {
+    background-color: #1e4a70;
+    justify-content: space-evenly;
+    display: inline-flex;
+    width: 100%;
+}
+
+.resource-link {
+    padding: 10px 0px;
+    /* color: #6696ed; 
+    A fallback option for color. Slightly darker than the sky-blue option currently selected.
+    */
+    color: #82cbf5;
+    text-decoration: none;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+    /* color: #9cbcf7;
+    */
+    color: #b7e2f7;
+}
+
+.info-img {
+    height: 50px;
+    width: 50px;
+}
