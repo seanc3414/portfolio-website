@@ -1,12 +1,21 @@
-.resources {
-    background-color: #1e4a70;
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    display: inline-flex;
-    width: 100%;
+}
+
+.navbar {
+    padding: 10px;
+    background-color: #1e4a70;
 }
 
 .resource-link {
-    padding: 10px 0px;
+    padding: 10px 10px;
     /* color: #6696ed; 
     A fallback option for color. Slightly darker than the sky-blue option currently selected.
     */
