@@ -1,17 +1,29 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(228, 228, 224);
 }
 
-.flex {
+main {
+    padding-top: 3em;
+}
+
+.flex-row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .navbar {
-    padding: 10px;
+    padding: 2px;
     background-color: #1e4a70;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .resource-link {
@@ -25,8 +37,6 @@ body {
 
 .resource-link:hover {
     text-decoration: underline;
-    /* color: #9cbcf7;
-    */
     color: #b7e2f7;
 }
 
@@ -34,3 +44,18 @@ body {
     height: 50px;
     width: 50px;
 }
+
+.headshot-container {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/*
+#headshot {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+*/

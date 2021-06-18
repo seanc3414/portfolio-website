@@ -6,11 +6,11 @@
         <meta name="author" content="Sean Carter">
         <meta name="description" content="About Sean">
         <title>Sean's Portfolio</title>
-        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/styles.css">
     </head>
     <body>
         <header>
-            <nav class="navbar flex">
+            <nav class="navbar flex-row">
                 <a class="resource-link" href="./index.html">Home</a>
                 <a class="resource-link" href="./about.html">About Me</a>
                 <a class="resource-link" href="./skills.html">Skills</a>
@@ -20,16 +20,19 @@
 
         <!-- About me section -->
         <main>
-            <p>
+            <article class="flex-col">
+                <div class="headshot-container"><img id="headshot" src="../images/Headshot.jpeg" alt="Professional Headshot"></div>
+                <p>
                 I am a senior at the University of Minnesota graduating in May 2021 with a major in Computer Science and a minor in Statistics.
-            </p>
+                </p>
+            </article>
         </main>
-        
+
         <footer>
-            <div class="footer-info">
+            <nav class="footer-info">
                 <a class="info-link" href="https://www.linkedin.com/in/sean-carter-839b03172/"><img class="info-img" src="../images/LinkedInLogo.png" alt="Link to LinkedIn"></a>
 
-            </div>
+            </nav>
         </footer>
     </body>
 </html>
