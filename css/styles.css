@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(228, 228, 224);
+    background-color: rgb(228, 228, 224); /* Darker gray for info background */
+    background-color: rgb(245, 245, 237);
 }
 
 main {
@@ -45,17 +46,7 @@ main {
     width: 50px;
 }
 
-.headshot-container {
-    height: 150px;
-    width: 150px;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-/*
 #headshot {
-    height: 100%;
-    width: auto;
-    margin: 0 auto;
+    height: 200px;
+    width: 200px;
 }
-*/
